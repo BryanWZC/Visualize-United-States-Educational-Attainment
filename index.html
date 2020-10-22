@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <meta name='description' content='visualizing United States Educational Attainment' />
+    <title>Visualizing United States Educational Attainment</title>
+    <link rel='stylesheet' type='text/css' href='./index.css' />
+</head>
+<body>
+    <div class='choropleth-map-wrapper'>
+        <div class='heading'>
+            <h1 id='title'>United States Educational Attainment</h1>
+            <h3 id='description'>Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014)</h3>
+        </div>
+        <svg class='choropleth-map'></svg>
+    </div>
+    <noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
+    <script type='module' src='./index.js'></script>
+    <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+</body>
+</html>
